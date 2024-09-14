@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        height: 100vh;
+        background-color: #111;
+        overflow: hidden;
+    }
+    .trail {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #ff6600;
+        border-radius: 50%;
+        pointer-events: none;
+        animation: fade 0.5s forwards;
+    }
+    @keyframes fade {
+        0% {
+            opacity: 1;
+            transform: scale(1);
+        }
+        100% {
+            opacity: 0;
+            transform: scale(0);
+        }
+    }
+</style>
+<body>
+
+    <script src="SushantSinghRajput.js"></script>
+</body>
+</html>
